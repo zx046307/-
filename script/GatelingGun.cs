@@ -5,11 +5,17 @@ using UnityEngine;
 public class GatelingGun : MonoBehaviour
 {
     private Transform target;//鎖定標籤
+    [Header("Attributes")]
     public float range = 15f;//攻擊範圍
+    public float fireRate = 1f;//攻擊速度
+    private float fireCountdown=0f;//攻擊間隔
+    [Header("Unity Setup Fields")]
     public string enemyTag = "Enemy";//標籤名稱
     public Transform partTorotate; //轉向模型
     public float turnSpeed = 10f;//轉向速度
-    public fireRate = 1f//攻擊速度
+
+    public GameObject bulletPrefab;
+    public Transform firePoint;
     // Start is called before the first frame update
     void Start()
     {
@@ -41,16 +47,34 @@ public class GatelingGun : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()//轉向控制
+    void Update()
     {
         if(target == null)
         {
             return;
         }
+        //轉向控制
         Vector3 dir = target.position - transform.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(partTorotate.rotation,lookRotation,Time.deltaTime*turnSpeed).eulerAngles;
         partTorotate.rotation = Quaternion.Euler(0f,rotation.y,0f);
+        //攻擊控制
+        if(fireCountdown<=0f)
+        {
+            Shoot();
+            fireCountdown = 1f/fireRate;
+        }
+        fireCountdown -= Time.deltaTime;
+    }
+
+    void Shoot()//生成子彈
+    {
+        GameObject bulletObject = (GameObject)Instantiate(bulletPrefab,firePoint.position,firePoint.rotation);
+        Bullet bullet =bulletObject.GetComponent<Bullet>();
+        if(bullet != null)
+        {
+            bullet.seek(target);
+        }
     }
 
     void OnDrawGizmodSelecter()//鎖定範圍繪製
