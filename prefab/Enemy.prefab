@@ -109,3 +109,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  CastleBlood: {fileID: 2452278908948465849, guid: 9f3ff34fad784b14ebbd81b7c0a15197, type: 3}

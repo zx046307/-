@@ -7,13 +7,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1131723695506673063, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ec8d118b80cf6e64d83cbdcc953af73b, type: 2}
     - target: {fileID: 1525450316668500206, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1525450316668500206, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1525450316668500206, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
       propertyPath: m_LocalScale.y
@@ -21,7 +25,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1525450316668500206, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
       propertyPath: m_LocalScale.z
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1525450316668500206, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65,7 +69,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7865563262379117928, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
       propertyPath: m_Name
-      value: Dirt
+      value: Dirt Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8459742306554474643, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 011456fe76130e046b8c2a1450dff4ff, type: 2}
+    m_RemovedComponents:
+    - {fileID: 6648601139405909046, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a9431a6d62da76c4eadd21b914c1b566, type: 3}
