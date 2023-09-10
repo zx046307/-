@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
     public float speed = 10f;//速度
-
     private Transform target;//位置資訊
     private int wavepointIndex = 0;//路標點
 
@@ -29,11 +29,17 @@ public class Enemy : MonoBehaviour
     {
         if(wavepointIndex>=waypoint.points.Length-1)//到達終點吹毀自己
         {
-            Destroy(gameObject);
+            endPoint();
             return;
         }
 
         wavepointIndex++;
         target = waypoint.points[wavepointIndex];
+    }
+
+    void endPoint()
+    {
+        BloodControl.lives--;
+        Destroy(gameObject);
     }
 }
