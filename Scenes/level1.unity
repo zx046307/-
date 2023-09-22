@@ -339,6 +339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!1001 &62792525
@@ -403,6 +407,10 @@ PrefabInstance:
     - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
       propertyPath: m_Name
       value: Gress Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
@@ -967,6 +975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!4 &187594511 stripped
@@ -1191,6 +1203,10 @@ PrefabInstance:
     - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
       propertyPath: m_Name
       value: Gress Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
@@ -1652,6 +1668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!1 &459871239
@@ -1834,10 +1854,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 3.25
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 600, y: 550}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3523,6 +3543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!1 &856693121
@@ -4191,6 +4215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!4 &986088745 stripped
@@ -4469,7 +4497,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 175
+  m_Text: 150
 --- !u!222 &1050176847
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4610,7 +4638,7 @@ GameObject:
   - component: {fileID: 1153643573}
   - component: {fileID: 1153643572}
   - component: {fileID: 1153643571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Strat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5168,7 +5196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1278026958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5293,7 +5321,7 @@ MonoBehaviour:
   - {fileID: 3542807337792773386, guid: 1ddd4aea03218234ebc3dc0083cffa8f, type: 3}
   - {fileID: 3749903306773420457, guid: a5d71d9e453b0c84f8170cb0ec5c31f2, type: 3}
   - {fileID: 6172033719745895773, guid: cdeca391e8ce370449eb440a48d7ea87, type: 3}
-  money: af0000002c01000090010000
+  money: 960000002c01000090010000
   text: {fileID: 1077646956}
   moneyslider: {fileID: 2049044756}
   layerMask:
@@ -5694,6 +5722,10 @@ PrefabInstance:
     - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
       propertyPath: m_Name
       value: Gress Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
@@ -6295,6 +6327,10 @@ PrefabInstance:
     - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
       propertyPath: m_Name
       value: Gress Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
@@ -6932,7 +6968,7 @@ GameObject:
   - component: {fileID: 1539247923}
   - component: {fileID: 1539247922}
   - component: {fileID: 1539247921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7782,9 +7818,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1153643574}
     m_Modifications:
+    - target: {fileID: 110800, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 115800, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 143350, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 145246, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 155950, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 186884, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
       propertyPath: m_Name
       value: Tower Mage
+      objectReference: {fileID: 0}
+    - target: {fileID: 187918, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 411524, guid: 77a599bd67f72e24999e1d5d60f433d0, type: 3}
       propertyPath: m_RootOrder
@@ -8582,6 +8646,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!1001 &1916198725
@@ -8646,6 +8714,10 @@ PrefabInstance:
     - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
       propertyPath: m_Name
       value: Gress Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
@@ -9165,6 +9237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gress Variant (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
 --- !u!1 &2039130185
@@ -9376,6 +9452,10 @@ PrefabInstance:
     - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
       propertyPath: m_Name
       value: Gress Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031673278937545177, guid: 47e043e879759e24f942566a91a201c2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47e043e879759e24f942566a91a201c2, type: 3}
