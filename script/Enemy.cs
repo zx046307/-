@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour
 {
     public float speed = 10f;//速度
+    public float health = 100;//血量
+    public int value = 20;//價值
     private Transform target;//位置資訊
     private int wavepointIndex = 0;//路標點
 
@@ -13,7 +15,19 @@ public class Enemy : MonoBehaviour
     {
         target = waypoint.points[0];
     }
-
+    public void TakeDamage(float amount)//傷害判定
+    {
+        health-=amount;
+        if(health<=0)
+        {
+            Die();
+        }
+    }
+    void Die()//死亡判定
+    {
+        MoneyControl.moneys+=value;
+        Destroy(gameObject);
+    }
     void Update()
     {
         Vector3 dir = target.position - transform.position;//移動向路標點
@@ -24,7 +38,6 @@ public class Enemy : MonoBehaviour
             GetNextWaypoint();
         }
     }
-
     void GetNextWaypoint()//切換路標點
     {
         if(wavepointIndex>=waypoint.points.Length-1)//到達終點吹毀自己
@@ -36,8 +49,7 @@ public class Enemy : MonoBehaviour
         wavepointIndex++;
         target = waypoint.points[wavepointIndex];
     }
-
-    void endPoint()
+    void endPoint()//到達終點
     {
         BloodControl.lives--;
         Destroy(gameObject);

@@ -2,18 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//戰敗設定
 public class defeatCastle : MonoBehaviour
 {
     public GameObject fail;
     public Slider CastleBlood;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if(CastleBlood.value<=0)

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+//回血系統
 public class BloodTreatment : MonoBehaviour
 {
     public Text cost;

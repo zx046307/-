@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Loading : MonoBehaviour
 {
-    // Start is called before the first frame update
     public GameObject BagPanel;
     void Start()
     {
@@ -14,10 +13,5 @@ public class Loading : MonoBehaviour
     public void OnClick ()
     {
         BagPanel.SetActive(true);
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
