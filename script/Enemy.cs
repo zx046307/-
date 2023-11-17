@@ -32,6 +32,9 @@ public class Enemy : MonoBehaviour
     {
         Vector3 dir = target.position - transform.position;//移動向路標點
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
+        Quaternion lookRotation = Quaternion.LookRotation(dir);
+        Vector3 rotation = Quaternion.Lerp(transform.rotation,lookRotation,Time.deltaTime*1000).eulerAngles;
+        transform.rotation = Quaternion.Euler(0f,rotation.y,0f);
 
         if(Vector3.Distance(transform.position, target.position)<=0.4f)//到達路標點換下一個路標點
         {

@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class wavespawner : MonoBehaviour
 {
-    public Transform enemyPrefab;//敵人欲置檔
+    public Transform[] enemyPrefab;//敵人預置檔
     public Transform spawnPoint;//敵人生成位置
     public float timeBetweenWave = 5f;//波數間隔
     public Text waveCountdown;//波次到計時
+    public int enemyTest;
     private float countdown = 2f;//到計時
     private int waveNumber = 0;
     void Update()
@@ -28,12 +29,12 @@ public class wavespawner : MonoBehaviour
         waveNumber++;
         for(int i=0;i<waveNumber;i++)
         {
-            SpawnEnemy();
+            SpawnEnemy(i);
             yield return new WaitForSeconds(0.5f);
         }
     }
-    void SpawnEnemy()
+    void SpawnEnemy(int index)
     {
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        Instantiate(enemyPrefab[enemyTest], spawnPoint.position, spawnPoint.rotation);
     }
 }
