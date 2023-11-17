@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3547733636724253432}
   - component: {fileID: 3741736290551539174}
   - component: {fileID: 3740615639716736734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Traser_ParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4828,7 +4828,7 @@ GameObject:
   - component: {fileID: 3540753670406980106}
   - component: {fileID: 3556672048636170858}
   - component: {fileID: 3566759255393160558}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Arm_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4909,7 +4909,7 @@ GameObject:
   - component: {fileID: 3548002303122698986}
   - component: {fileID: 3556676015439848946}
   - component: {fileID: 3565855104228892188}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_GunBody_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4990,7 +4990,7 @@ GameObject:
   - component: {fileID: 3540706044541341028}
   - component: {fileID: 3741838691446893698}
   - component: {fileID: 3741978007533471014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletShells_ParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9806,7 +9806,7 @@ GameObject:
   - component: {fileID: 3547977528607543632}
   - component: {fileID: 3556186038320769882}
   - component: {fileID: 3565156644006799166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Arm_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9887,7 +9887,7 @@ GameObject:
   - component: {fileID: 3540602915953407934}
   - component: {fileID: 3741819438613553134}
   - component: {fileID: 3740531057197328126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BulletImpact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14703,7 +14703,7 @@ GameObject:
   - component: {fileID: 3540653221586821310}
   - component: {fileID: 3555620586071682776}
   - component: {fileID: 3564953649556287734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_BaseRotation_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14784,7 +14784,7 @@ GameObject:
   - component: {fileID: 3540586265378104504}
   - component: {fileID: 3556711244757981948}
   - component: {fileID: 3566656648191386968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_BaseRotation_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14865,7 +14865,7 @@ GameObject:
   - component: {fileID: 3548077707522619502}
   - component: {fileID: 3555641430507853452}
   - component: {fileID: 3565085670373365672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Barrel_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14944,7 +14944,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3540715258411872094}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_BaseRotation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14981,7 +14981,7 @@ GameObject:
   - component: {fileID: 3547916754806620428}
   - component: {fileID: 3555851451429475718}
   - component: {fileID: 3565091151747244948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Arm_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15062,7 +15062,7 @@ GameObject:
   - component: {fileID: 3547920569874895056}
   - component: {fileID: 3556576717075688024}
   - component: {fileID: 3566525638566781386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Barrel_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15143,7 +15143,7 @@ GameObject:
   - component: {fileID: 3540895112217325596}
   - component: {fileID: 3556410577604025060}
   - component: {fileID: 3565138665132910600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_GunBody_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15224,7 +15224,7 @@ GameObject:
   - component: {fileID: 3540648955110973024}
   - component: {fileID: 3741633200967470244}
   - component: {fileID: 3742133764370139620}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: MuzzelFlash_ParticleSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20043,9 +20043,13 @@ GameObject:
   - component: {fileID: 3517270910059467310}
   - component: {fileID: 3744507073625561134}
   - component: {fileID: 3543660042340940019}
-  m_Layer: 0
+  - component: {fileID: 7617618025146077555}
+  - component: {fileID: 6964738540303724007}
+  - component: {fileID: 8486022609456468559}
+  - component: {fileID: 8862758828580651767}
+  m_Layer: 6
   m_Name: GatelingGun_Yellow_L3
-  m_TagString: Player
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20076,8 +20080,8 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 1.5
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!205 &3744507073625561134
 LODGroup:
   m_ObjectHideFlags: 0
@@ -20134,8 +20138,95 @@ MonoBehaviour:
   enemyTag: Enemy
   partTorotate: {fileID: 3540715258411872094}
   turnSpeed: 10
+  laserEffect: {fileID: 0}
+  DamageTime: 30
+  laserLight: {fileID: 0}
+  useLaser: 0
+  lineRender: {fileID: 0}
   bulletPrefab: {fileID: 7116778947385621599, guid: a466e1e09288fab49a81d2e4621db3e5, type: 3}
   firePoint: {fileID: 3543660042732024429}
+--- !u!54 &7617618025146077555
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3542807337792773386}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6964738540303724007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3542807337792773386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7198ad8501d77b4cae7eaedec972c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!23 &8486022609456468559
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3542807337792773386}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8862758828580651767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3542807337792773386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &3543000011626332786
 GameObject:
   m_ObjectHideFlags: 0
@@ -20147,7 +20238,7 @@ GameObject:
   - component: {fileID: 3540658393360355854}
   - component: {fileID: 3555021404150255080}
   - component: {fileID: 3566795184765363644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_GunBody_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20226,7 +20317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3547953406106467346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_GunBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20263,7 +20354,7 @@ GameObject:
   - component: {fileID: 3540568574598667074}
   - component: {fileID: 3554923326929349342}
   - component: {fileID: 3566337703428665268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Base_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20344,7 +20435,7 @@ GameObject:
   - component: {fileID: 3540589714685344104}
   - component: {fileID: 3556170148109255480}
   - component: {fileID: 3566766805757035572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Barrel_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20423,7 +20514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3547893012365116446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20457,7 +20548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3548235778965477850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20492,7 +20583,7 @@ GameObject:
   - component: {fileID: 3548268719759834490}
   - component: {fileID: 3555841990649748248}
   - component: {fileID: 3564952768217359288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Base_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20573,7 +20664,7 @@ GameObject:
   - component: {fileID: 3540441511342008264}
   - component: {fileID: 3554999182970583248}
   - component: {fileID: 3565072950676194934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_BaseRotation_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20652,7 +20743,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3543660042732024429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20684,7 +20775,7 @@ GameObject:
   - component: {fileID: 3540479346470112004}
   - component: {fileID: 3554779117313321258}
   - component: {fileID: 3565111102628578402}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Base_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20763,7 +20854,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3540919159893753592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GatelingGun_L3_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6172033719608558522}
   - component: {fileID: 6172033719608558525}
   - component: {fileID: 6172033719608558524}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 6172033719665821403}
   - component: {fileID: 6172033719665821401}
   - component: {fileID: 6172033719665821400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PylonElement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,9 +187,14 @@ GameObject:
   - component: {fileID: 6172033719745895771}
   - component: {fileID: 6172033719745895770}
   - component: {fileID: 6172033719745895768}
-  m_Layer: 0
+  - component: {fileID: 4394814722395109961}
+  - component: {fileID: 8779346395032424526}
+  - component: {fileID: 1927172142333061444}
+  - component: {fileID: -2679360574965521679}
+  - component: {fileID: 5912445442169340490}
+  m_Layer: 6
   m_Name: Turret 1a
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -228,6 +233,7 @@ MonoBehaviour:
   partTorotate: {fileID: 6172033720630614654}
   turnSpeed: 10
   laserEffect: {fileID: 6733778986461310476}
+  DamageTime: 30
   laserLight: {fileID: 7083516242867060904}
   useLaser: 1
   lineRender: {fileID: 6172033719745895768}
@@ -331,6 +337,101 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &4394814722395109961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6172033719745895773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7198ad8501d77b4cae7eaedec972c83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &8779346395032424526
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6172033719745895773}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Radius: 7.5
+  m_Center: {x: 0, y: 5, z: 0}
+--- !u!54 &1927172142333061444
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6172033719745895773}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!23 &-2679360574965521679
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6172033719745895773}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5912445442169340490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6172033719745895773}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 5, z: 0}
 --- !u!1 &6172033719820416456
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,7 +443,7 @@ GameObject:
   - component: {fileID: 6172033719820416457}
   - component: {fileID: 6172033719820416471}
   - component: {fileID: 6172033719820416470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BaseElement
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +524,7 @@ GameObject:
   - component: {fileID: 6172033720083112327}
   - component: {fileID: 6172033720083112325}
   - component: {fileID: 6172033720083112324}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6172033720199892254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +635,7 @@ GameObject:
   - component: {fileID: 6172033720630614654}
   - component: {fileID: 6172033720630614652}
   - component: {fileID: 6172033720630614655}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pylon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -617,7 +718,7 @@ GameObject:
   - component: {fileID: 6172033720994517633}
   - component: {fileID: 6172033720994517647}
   - component: {fileID: 6172033720994517646}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +801,7 @@ GameObject:
   - component: {fileID: 6172033721243866028}
   - component: {fileID: 6172033721243866026}
   - component: {fileID: 6172033721243866029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -783,6 +884,14 @@ PrefabInstance:
     - target: {fileID: 1789855368540881185, guid: 6f4935f0d6b4d944fa84c69fca247507, type: 3}
       propertyPath: m_Name
       value: laserEffect Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 1789855368540881185, guid: 6f4935f0d6b4d944fa84c69fca247507, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3993495735543730450, guid: 6f4935f0d6b4d944fa84c69fca247507, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8175450614770309305, guid: 6f4935f0d6b4d944fa84c69fca247507, type: 3}
       propertyPath: m_RootOrder
