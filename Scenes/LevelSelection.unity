@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 60440065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1, y: 1, z: 1}
   m_Children:
   - {fileID: 1565575341}
   - {fileID: 310043987}
@@ -164,8 +164,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 465, y: 171}
+  m_AnchoredPosition: {x: 0, y: -28.8}
+  m_SizeDelta: {x: 465, y: 285.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60440067
 MonoBehaviour:
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3562a87f7287e499c0c156ae15d31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: creating
+  scene: level3
 --- !u!114 &262276270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1397,7 +1397,7 @@ RectTransform:
   m_GameObject: {fileID: 672293090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1.35}
   m_Children:
   - {fileID: 1233612547}
   - {fileID: 60440066}
@@ -1407,7 +1407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 41.8}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &704650259
@@ -1963,7 +1963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3562a87f7287e499c0c156ae15d31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: creating
+  scene: level2
 --- !u!114 &858235355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2294,7 +2294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee3562a87f7287e499c0c156ae15d31e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: creating
+  scene: level4
 --- !u!114 &960171915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2356,10 +2356,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 550}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -3934,7 +3934,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 600, y: 300}
+  m_SizeDelta: {x: 600, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746670131
 MonoBehaviour:
@@ -4228,7 +4228,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 3079240491244166375, guid: db6a08826bcedfa40b1c0ca06dff011b, type: 2}
   m_audioClip: {fileID: 8300000, guid: f4a81570fedeb504a8c5a155341afd6e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
