@@ -15,14 +15,18 @@ public class Tower : MonoBehaviour
     public float turnSpeed = 10f;//轉向速度
     [Header("BulletSelect")]
     public ParticleSystem laserEffect;//雷射特效
-    public int DamageTime = 30;
+    public int DamageTime = 30;//雷射次數
     public Light laserLight;//雷射光效
     public bool useLaser = false;//雷射使用
     public LineRenderer lineRender;//雷射光線
     public GameObject bulletPrefab;//子彈模型
     public Transform firePoint;//發射點
+
+    private int Tower3_Level=0;
+    int n=0;
     void Start()
     {
+        Tower3_Level=PlayerPrefs.GetInt("Tower3_Level");
         InvokeRepeating("UpdateTarget",0f,0.5f);
     }
     void UpdateTarget()//鎖定敵人
@@ -50,6 +54,11 @@ public class Tower : MonoBehaviour
     }
     void Update()
     {
+        if(n==0)
+        {
+            DamageTime+=Tower3_Level;
+            n=1;
+        }
         if(target == null)
         {
             if(useLaser)
@@ -97,7 +106,7 @@ public class Tower : MonoBehaviour
     }
     void Laser()//雷射控制
     {
-        target.GetComponent<Enemy>().TakeDamage(DamageTime*Time.deltaTime);
+        target.GetComponent<Enemy>().TakeDamage(DamageTime*Time.deltaTime,2);
         if(!lineRender.enabled)
         {
             lineRender.enabled = true;

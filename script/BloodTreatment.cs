@@ -6,13 +6,21 @@ using UnityEngine.UI;
 public class BloodTreatment : MonoBehaviour
 {
     public Text cost;
+    public GameObject text;
     public int treatment_live;
     public void OnClick()
     {
-        MoneyControl.moneys-=MoneyControl.treament;
-        MoneyControl.treament+=500;
-        BloodControl.lives = treatment_live;
-        cost.text = MoneyControl.treament.ToString();
-
+        if(MoneyControl.moneys>=MoneyControl.treament)
+        {
+            MoneyControl.moneys-=MoneyControl.treament;
+            MoneyControl.treament+=500;
+            BloodControl.lives = treatment_live;
+            cost.text = MoneyControl.treament.ToString();
+            text.SetActive(false);
+        }
+        else
+        {
+            text.SetActive(true);
+        }
     }
 }

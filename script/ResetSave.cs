@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuitGame : MonoBehaviour
+public class ResetSave : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         this.GetComponent<Button>().onClick.AddListener(OnClick);
     }
-
-    public void OnClick()
+    public void OnClick ()
     {
-        Application.Quit();
+        PlayerPrefs.SetInt("EXP",0);
+        PlayerPrefs.SetInt("Tower1_Level",0);
+        PlayerPrefs.SetInt("Tower2_Level",0);
+        PlayerPrefs.SetInt("Tower3_Level",0);
     }
-
-    // Update is called once per frame
     void Update()
     {
         

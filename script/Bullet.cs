@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public int damage;
     private Transform target;//敵人標籤
     public float speed=70f;//子彈速度
     public float exploreRange = 0f;//爆炸範圍
     public GameObject effect;//傷害特效
+    int damage1=0;
+    int damage2=0;
+    int n=0;
+    private int Tower1_Level=0;
+    private int Tower2_Level=0;
 
     public void seek(Transform _target)//標籤設定
     {
@@ -16,6 +22,16 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
+        if(n==0)
+        {
+            Tower1_Level=PlayerPrefs.GetInt("Tower1_Level");
+            Tower2_Level=PlayerPrefs.GetInt("Tower2_Level");
+            damage1=damage;
+            damage2=damage;
+            damage1+=Tower1_Level*5;
+            damage2+=Tower2_Level*5;
+            n=1;
+        }
         if(target == null)//沒擊中目標
         {
             Destroy(gameObject);
@@ -60,11 +76,11 @@ public class Bullet : MonoBehaviour
     {
         if(selection==1)
         {
-            enemy.GetComponent<Enemy>().TakeDamage(25);
+            enemy.GetComponent<Enemy>().TakeDamage(damage1,1);
         }
         else if(selection==2)
         {
-            enemy.GetComponent<Enemy>().TakeDamage(35);
+            enemy.GetComponent<Enemy>().TakeDamage(damage2,1);
         }
     }
     void OnDrawGizmodSelected()//爆炸範圍設定

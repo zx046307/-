@@ -10,6 +10,7 @@ public class StartGame : MonoBehaviour
     public GameObject penal;
     public GameObject penal1;
     public GameObject penal2;
+    public GameObject penal3;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +24,7 @@ public class StartGame : MonoBehaviour
         penal.SetActive(false);
         penal1.SetActive(false);
         penal2.SetActive(true);
+        penal3.SetActive(false);
         pauseButton.SetActive(true);
         restartButton.SetActive(true);
         MoneyControl.treament = 1000;
